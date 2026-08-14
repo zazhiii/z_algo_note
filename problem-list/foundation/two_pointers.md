@@ -10,6 +10,8 @@
 
 [3. 无重复字符的最长子串 - 力扣（LeetCode）](https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/) 
 
+[3090. 每个字符最多出现两次的最长子字符串 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-length-substring-with-two-occurrences/description/)
+
 [76. 最小覆盖子串 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-window-substring/) 
 
 [134. 加油站 - 力扣（LeetCode）](https://leetcode.cn/problems/gas-station/submissions/) 判断是否有长度>=n的子数组满足其前缀和都>=0

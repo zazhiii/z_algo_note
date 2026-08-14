@@ -18,6 +18,8 @@ for(int i = 0, j = 0; i < n; i ++){
 pw.println(ans);
 ```
 
+https://leetcode.cn/problems/maximum-length-substring-with-two-occurrences/description/
+
 ### 判断子序列
 
 判断`a[]`是否为`b[]`的子序列
