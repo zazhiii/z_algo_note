@@ -1,12 +1,14 @@
+# 双指针与滑动窗口题单
 
 
-# 滑动窗口
+
+## 滑动窗口
 
 > 解决子数组和子串问题
 
-## 不定长滑窗
+### 不定长滑窗
 
-### 经典例题
+#### 经典例题
 
 [3. 无重复字符的最长子串 - 力扣（LeetCode）](https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/) 
 
@@ -26,13 +28,13 @@
 
 [2962. 统计最大元素出现至少 K 次的子数组 - 力扣（LeetCode）](https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times/description/) [学习滑窗思想]  
 
-[3298. 统计重新排列后包含另一个字符串的子字符串数目 II - 力扣（LeetCode）](https://leetcode.cn/problems/count-substrings-that- can-be-rearranged-to-contain-a-string-ii/description/) [76题的计数版本] 
+[3298. 统计重新排列后包含另一个字符串的子字符串数目 II - 力扣（LeetCode）](https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/description/) [76题的计数版本]
 
 [P2058 [NOIP 2016 普及组] 海港 - 洛谷 | 计算机科学教育新生态](https://www.luogu.com.cn/problem/P2058) 黄
 
 
 
-### 求最长/最大
+#### 求最长/最大
 
 >  移动一次右端点，缩减左端点至区间合法之后记录答案
 
@@ -68,7 +70,7 @@
 
 
 
-### 求最短/最小
+#### 求最短/最小
 
 > 移动一次右端点，缩减左端点到最后一次合法(再移动左端点就不合法)，记录答案
 
@@ -78,7 +80,7 @@
 
 [2875. 无限数组的最短子数组 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-size-subarray-in-infinite-array/description/) 1914 
 
-### 计数类
+#### 计数类
 
 > 移动一次右端点，移动左端点到分界点，统计答案
 
@@ -98,7 +100,7 @@
 
 [2762. 不间断子数组 - 力扣（LeetCode）](https://leetcode.cn/problems/continuous-subarrays/description/) 1940 单调队列维护区间最值
 
-### 恰好型
+#### 恰好型
 
 [930. 和相同的二元子数组 - 力扣（LeetCode）](https://leetcode.cn/problems/binary-subarrays-with-sum/description/) 1592 滑窗 | 前缀和 + 哈希表
 
@@ -110,6 +112,6 @@
 
 
 
-# 双指针
+## 双指针
 
 [922. 按奇偶排序数组 II - 力扣（LeetCode）](https://leetcode.cn/problems/sort-array-by-parity-ii/) 用两个奇偶指针操作

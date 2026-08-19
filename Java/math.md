@@ -24,4 +24,4 @@ Integer.toString(int i, int radix);
 
 相关题目：
 
-https://www.luogu.com.cn/problem/P1143
+[洛谷 P1143](https://www.luogu.com.cn/problem/P1143)

@@ -1,20 +1,22 @@
-
-
-# 质数
-
-## 质数筛
-
-https://leetcode.cn/problems/prime-pairs-with-target-sum	1505
-
-https://leetcode.cn/problems/closest-prime-numbers-in-range	1650
-
-https://leetcode.cn/problems/prime-subtraction-operation	1779
+# 数学题单
 
 
 
-https://www.luogu.com.cn/problem/P5736 橙
+## 质数
 
-https://www.luogu.com.cn/problem/P5723 橙
+### 质数筛
+
+[LeetCode prime-pairs-with-target-sum](https://leetcode.cn/problems/prime-pairs-with-target-sum)	1505
+
+[LeetCode closest-prime-numbers-in-range](https://leetcode.cn/problems/closest-prime-numbers-in-range)	1650
+
+[LeetCode prime-subtraction-operation](https://leetcode.cn/problems/prime-subtraction-operation)	1779
+
+
+
+[洛谷 P5736](https://www.luogu.com.cn/problem/P5736) 橙
+
+[洛谷 P5723](https://www.luogu.com.cn/problem/P5723) 橙
 
 
 
@@ -22,11 +24,11 @@ https://www.luogu.com.cn/problem/P5723 橙
 
 
 
-https://atcoder.jp/contests/abc383/tasks/abc383_d 884
+[AtCoder abc383_d](https://atcoder.jp/contests/abc383/tasks/abc383_d) 884
 
 
 
-## 判断质数
+### 判断质数
 
 **Miller-Rabin测试**
 
@@ -34,26 +36,26 @@ https://atcoder.jp/contests/abc383/tasks/abc383_d 884
 
 
 
-## 质数分解
+### 质数分解
 
-https://www.luogu.com.cn/problem/P10411
-
-
+[洛谷 P10411](https://www.luogu.com.cn/problem/P10411)
 
 
 
-# 快速幂
+
+
+## 快速幂
 
 [1922. 统计好数字的数目 - 力扣（LeetCode）](https://leetcode.cn/problems/count-good-numbers/description/) 快速幂 + 乘法原理
 
 
 
-# 概率
+## 概率
 
 [1227. 飞机座位分配概率 - 力扣（LeetCode）](https://leetcode.cn/problems/airplane-seat-assignment-probability/description/)
 
-# GCD | LCM
-https://leetcode.cn/problems/replace-non-coprime-numbers-in-array
+## GCD | LCM
+[LeetCode replace-non-coprime-numbers-in-array](https://leetcode.cn/problems/replace-non-coprime-numbers-in-array)
 
 
 

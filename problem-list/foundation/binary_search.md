@@ -1,44 +1,46 @@
-# 1. 二分查找入门
+# 二分查找题单
 
-## 基础二分查找
+## 1. 二分查找入门
+
+### 基础二分查找
 
 [704. 二分查找](https://leetcode.cn/problems/binary-search/)
 
-## `lower_bound`
+### `lower_bound`
 
 [35. 搜索插入位置 ](https://leetcode.cn/problems/search-insert-position/) 查找大于等于目标值的最小值的位置。
 
-## `leftmost, rightmost`
+### `leftmost, rightmost`
 
 [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) 
 
-# 2. 二分的应用
+## 2. 二分的应用
 
-https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/
+[LeetCode find-minimum-in-rotated-sorted-array](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/)
 
-https://leetcode.cn/problems/search-in-rotated-sorted-array
+[LeetCode search-in-rotated-sorted-array](https://leetcode.cn/problems/search-in-rotated-sorted-array)
 
-https://leetcode.cn/problems/search-a-2d-matrix
+[LeetCode search-a-2d-matrix](https://leetcode.cn/problems/search-a-2d-matrix)
 
-https://www.luogu.com.cn/problem/P1102
+[洛谷 P1102](https://www.luogu.com.cn/problem/P1102)
 
-https://www.luogu.com.cn/problem/P1678
+[洛谷 P1678](https://www.luogu.com.cn/problem/P1678)
 
-https://atcoder.jp/contests/abc382/tasks/abc382_c	476；前缀最小值，二分
-
-
-
-https://atcoder.jp/contests/abc389/tasks/abc389_d	749
-
-https://codeforces.com/contest/1971/problem/F	1600
+[AtCoder abc382_c](https://atcoder.jp/contests/abc382/tasks/abc382_c)	476；前缀最小值，二分
 
 
 
-# 3. 小数二分
+[AtCoder abc389_d](https://atcoder.jp/contests/abc389/tasks/abc389_d)	749
 
-https://www.luogu.com.cn/problem/P1024
+[Codeforces 1971F](https://codeforces.com/contest/1971/problem/F)	1600
 
-# 4. 二分答案
+
+
+## 3. 小数二分
+
+[洛谷 P1024](https://www.luogu.com.cn/problem/P1024)
+
+## 4. 二分答案
 
 
 
@@ -49,7 +51,7 @@ https://www.luogu.com.cn/problem/P1024
 [P2678 [NOIP2015 提高组] 跳石头 - 洛谷](https://www.luogu.com.cn/problem/P2678)
 
 [P3853 [TJOI2007] 路标设置 - 洛谷](https://www.luogu.com.cn/problem/P3853)
-https://leetcode.cn/problems/minimize-the-maximum-difference-of-pairs    2155
+[LeetCode minimize-the-maximum-difference-of-pairs](https://leetcode.cn/problems/minimize-the-maximum-difference-of-pairs)    2155
 
 
 [P1182 数列分段 Section II - 洛谷 ](https://www.luogu.com.cn/problem/P1182) 黄
@@ -68,7 +70,7 @@ https://leetcode.cn/problems/minimize-the-maximum-difference-of-pairs    2155
 
 [P1083 [NOIP2012 提高组] 借教室 - 洛谷](https://www.luogu.com.cn/problem/P1083) 黄
 
-https://www.luogu.com.cn/problem/P4343
+[洛谷 P4343](https://www.luogu.com.cn/problem/P4343)
 
 [1870. 准时到达的列车最小时速 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-speed-to-arrive-on-time/description/)
 

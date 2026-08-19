@@ -1,8 +1,10 @@
+# 排列与置换题单
+
 [C - Make Isomorphic (atcoder.jp)](https://atcoder.jp/contests/abc371/tasks/abc371_c)
 
 ---
 
-# next_permutation应用
+## next_permutation应用
 
 [P1088 [NOIP2004 普及组] 火星人 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1088)
 
@@ -10,7 +12,7 @@
 
 
 
-# 置换环
+## 置换环
 
 **置换环**是用来求解**数组排序元素间所需最小交换次数**这类问题。
 

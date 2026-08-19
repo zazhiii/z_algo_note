@@ -1,4 +1,6 @@
-### 最长连续不重复子序列
+# 双指针模板
+
+## 最长连续不重复子序列
 
 给定一个长度为 $n$ 的整数序列，找出最长的不包含重复的数的连续区间
 
@@ -18,9 +20,9 @@ for(int i = 0, j = 0; i < n; i ++){
 pw.println(ans);
 ```
 
-https://leetcode.cn/problems/maximum-length-substring-with-two-occurrences/description/
+[LeetCode maximum-length-substring-with-two-occurrences](https://leetcode.cn/problems/maximum-length-substring-with-two-occurrences/description/)
 
-### 判断子序列
+## 判断子序列
 
 判断`a[]`是否为`b[]`的子序列
 
@@ -32,4 +34,3 @@ while(i < n && j < m){
 }
 pw.println(i == n ? "Yes" : "No");
 ```
-

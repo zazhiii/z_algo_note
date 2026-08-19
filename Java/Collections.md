@@ -1,8 +1,10 @@
+# Java 集合与数组
 
 
-# Array
 
-## Arrays类
+## Array
+
+### Arrays类
 
 比较两个数组元素是否全部相等
 
@@ -13,7 +15,7 @@ Arrays.equals(a, b);
 
 
 
-# `TreeSet`
+## `TreeSet`
 
 
 

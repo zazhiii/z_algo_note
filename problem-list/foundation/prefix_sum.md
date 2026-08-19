@@ -1,12 +1,14 @@
+# 前缀和与差分题单
 
 
-# 前缀和
+
+## 前缀和
 
 **一维前缀和**
 
-https://www.luogu.com.cn/problem/P8218【模版】
+[洛谷 P8218](https://www.luogu.com.cn/problem/P8218)【模版】
 
-https://ac.nowcoder.com/acm/problem/14556
+[牛客 14556](https://ac.nowcoder.com/acm/problem/14556)
 
 
 
@@ -22,25 +24,25 @@ https://ac.nowcoder.com/acm/problem/14556
 
 **二维前缀和**
 
-https://www.luogu.com.cn/problem/P1719
+[洛谷 P1719](https://www.luogu.com.cn/problem/P1719)
 
-https://www.luogu.com.cn/problem/P2004
-
-
-
-# 前缀异或和
-
-https://leetcode.cn/problems/count-the-number-of-beautiful-subarrays	
+[洛谷 P2004](https://www.luogu.com.cn/problem/P2004)
 
 
 
-# 前后缀分解
+## 前缀异或和
 
-https://codeforces.com/contest/2064/problem/C	1300
+[LeetCode count-the-number-of-beautiful-subarrays](https://leetcode.cn/problems/count-the-number-of-beautiful-subarrays)
 
 
 
-# 差分
+## 前后缀分解
+
+[Codeforces 2064C](https://codeforces.com/contest/2064/problem/C)	1300
+
+
+
+## 差分
 
 **一维差分**
 
@@ -52,9 +54,9 @@ https://codeforces.com/contest/2064/problem/C	1300
 
 [P4552 [Poetize6] IncDec Sequence - 洛谷](https://www.luogu.com.cn/problem/P4552) 绿
 
-https://leetcode.cn/problems/zero-array-transformation-i	1591
+[LeetCode zero-array-transformation-i](https://leetcode.cn/problems/zero-array-transformation-i)	1591
 
 **二维差分**
 
-https://www.luogu.com.cn/problem/P3397
+[洛谷 P3397](https://www.luogu.com.cn/problem/P3397)
 

@@ -2,7 +2,7 @@
 
 [P3367 【模板】并查集 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P3367) [模板]  
 
-https://leetcode.cn/problems/lexicographically-smallest-equivalent-string
+[LeetCode lexicographically-smallest-equivalent-string](https://leetcode.cn/problems/lexicographically-smallest-equivalent-string)
 
 ## 维护集合个数
 

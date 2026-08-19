@@ -1,8 +1,10 @@
-# ABC 350
+# AtCoder Beginner Contest 记录
+
+## ABC 350
 
 **C - Sort**
 
-https://atcoder.jp/contests/abc350/tasks/abc350_c
+[AtCoder abc350_c](https://atcoder.jp/contests/abc350/tasks/abc350_c)
 
 > 模拟
 >
@@ -41,7 +43,7 @@ public class Main {
 
 **D - New Friends**
 
-https://atcoder.jp/contests/abc350/tasks/abc350_d
+[AtCoder abc350_d](https://atcoder.jp/contests/abc350/tasks/abc350_d)
 
 > 并查集
 >
@@ -94,11 +96,11 @@ public class Main {
 
 
 
-# ABC 351
+## ABC 351
 
 **c. Merge the balls**
 
-https://atcoder.jp/contests/abc351/tasks/abc351_c
+[AtCoder abc351_c](https://atcoder.jp/contests/abc351/tasks/abc351_c)
 
 > 模拟
 >
@@ -124,7 +126,7 @@ public class Main {
 }
 ```
 
-https://atcoder.jp/contests/abc351/tasks/abc351_d
+[AtCoder abc351_d](https://atcoder.jp/contests/abc351/tasks/abc351_d)
 
 > BFS求联通块
 
@@ -204,11 +206,11 @@ public class Main {
 
 
 
-# ABC 352
+## ABC 352
 
 **D - Permutation Subsequence**
 
-https://atcoder.jp/contests/abc352/tasks/abc352_d
+[AtCoder abc352_d](https://atcoder.jp/contests/abc352/tasks/abc352_d)
 
 > **单调队列**、**区间最大值**
 >
@@ -266,7 +268,7 @@ class Read{
 }
 ```
 
-# ABC 353
+## ABC 353
 
 [C - Sigma Problem (atcoder.jp)](https://atcoder.jp/contests/abc353/tasks/abc353_c)
 
@@ -373,7 +375,7 @@ public class Main {
 
 [E - Yet Another Sigma Problem](https://atcoder.jp/contests/abc353/tasks/abc353_e) **字典树**
 
-# ABC 354
+## ABC 354
 
 [C - AtCoder Magics](https://atcoder.jp/contests/abc354/tasks/abc354_c)
 
@@ -437,11 +439,11 @@ public class Main {
 }
 ```
 
-# ABC 355
+## ABC 355
 
 **D - Intersecting Intervals**
 
-https://atcoder.jp/contests/abc355/tasks/abc355_d
+[AtCoder abc355_d](https://atcoder.jp/contests/abc355/tasks/abc355_d)
 
 给你 $N$ 个实数区间。 $i$ $(1 \leq i \leq N)$ 区间为 $[l_i, r_i]$ 。求 $i$ -th 和 $j$ -th区间相交的 $(i, j),(1 \leq i < j \leq N)$ 对的个数。
 
@@ -526,7 +528,7 @@ public class Main {
 
 
 
-# ABC 356
+## ABC 356
 
 [C - Keys](https://atcoder.jp/contests/abc356/tasks/abc356_c)
 
@@ -593,9 +595,9 @@ public class Main {
 }
 ```
 
-# ABC 357
+## ABC 357
 
-D	https://atcoder.jp/contests/abc357/tasks/abc357_d
+D	[AtCoder abc357_d](https://atcoder.jp/contests/abc357/tasks/abc357_d)
 
 对于正整数 $N$ ，设 $V_N$ 是由 $N$ 恰好连接 $N$ 次所组成的整数。  
 更确切地说，将 $N$ 视为一个字符串，将其连接 $N$ 份，并将结果视为一个整数，得到 $V_N$ 。  
@@ -645,7 +647,7 @@ public class Main {
 }
 ```
 
-# ABC 358
+## ABC 358
 
 [B - Ticket Counter](https://atcoder.jp/contests/abc358/tasks/abc358_b)
 
@@ -785,7 +787,7 @@ public class Main {
 }
 ```
 
-# ABC 359
+## ABC 359
 
 **C**
 
@@ -825,7 +827,7 @@ public class Main {
 }
 ```
 
-# ABC 360
+## ABC 360
 
 [C - Move It (atcoder.jp)](https://atcoder.jp/contests/abc360/tasks/abc360_c)
 
@@ -929,7 +931,7 @@ public class Main {
 
 ```
 
-# ABC 362
+## ABC 362
 
 [D - Shortest Path 3 (atcoder.jp)](https://atcoder.jp/contests/abc362/tasks/abc362_d)
 
@@ -998,7 +1000,7 @@ public class Main {
 }
 ```
 
-# ABC 363
+## ABC 363
 
 [C - Avoid K Palindrome 2 ](https://atcoder.jp/contests/abc363/tasks/abc363_c)
 
@@ -1097,7 +1099,7 @@ public class Main {
 
 
 
-# [ABC 364](https://atcoder.jp/contests/abc364/tasks)
+## [ABC 364](https://atcoder.jp/contests/abc364/tasks)
 
 [D - K-th Nearest (atcoder.jp)](https://atcoder.jp/contests/abc364/tasks/abc364_d)
 
@@ -1173,7 +1175,7 @@ public class Main {
 }
 ```
 
-# [ABC 365](https://atcoder.jp/contests/abc365/tasks)
+## [ABC 365](https://atcoder.jp/contests/abc365/tasks)
 
 [C - Transportation Expenses (atcoder.jp)](https://atcoder.jp/contests/abc365/tasks/abc365_c)
 
@@ -1362,7 +1364,7 @@ public class Prac {
 }
 ```
 
-# ABC 367
+## ABC 367
 
 [D - Pedometer (atcoder.jp)](https://atcoder.jp/contests/abc367/tasks/abc367_d)
 
@@ -1384,7 +1386,7 @@ Find the number of possible pairs $(s,t)$.
 >
 > **注意**：当目的地`i`是`[n + 1, 2n - 1]`之间时，只能从`[i - n + 1, n]`过来。
 
-# [ABC 368](https://atcoder.jp/contests/abc368)
+## [ABC 368](https://atcoder.jp/contests/abc368)
 
 [C - Triple Attack](https://atcoder.jp/contests/abc368/tasks/abc368_c)
 
@@ -1409,7 +1411,7 @@ Find the number of possible pairs $(s,t)$.
 
 
 
-# [ABC 370](https://atcoder.jp/contests/abc370)
+## [ABC 370](https://atcoder.jp/contests/abc370)
 
 [D - Cross Explosion (atcoder.jp)](https://atcoder.jp/contests/abc370/tasks/abc370_d)
 
@@ -1495,7 +1497,7 @@ public class Main {
 
 
 
-# ABC 371
+## ABC 371
 
 [C - Make Isomorphic (atcoder.jp)](https://atcoder.jp/contests/abc371/tasks/abc371_c)
 
@@ -1620,7 +1622,7 @@ public class Main {
     }
 ```
 
-#  [ABC 372](https://atcoder.jp/contests/abc372) 
+## [ABC 372](https://atcoder.jp/contests/abc372)
 
 [D. Buildings](https://atcoder.jp/contests/abc372/tasks/abc372_d)
 
@@ -1715,7 +1717,7 @@ public class Main {
 
 
 
-# [ABC385](https://atcoder.jp/contests/abc385)
+## [ABC385](https://atcoder.jp/contests/abc385)
 
 [C - Illuminate Buildings](https://atcoder.jp/contests/abc385/tasks/abc385_c)
 
@@ -1744,7 +1746,7 @@ public class Main {
 
 
 
-# [ABC386](https://atcoder.jp/contests/abc386)
+## [ABC386](https://atcoder.jp/contests/abc386)
 
 [D - Diagonal Separation](https://atcoder.jp/contests/abc386/tasks/abc386_d)
 
@@ -1820,9 +1822,9 @@ public class Main {
 
 
 
-# [ABC 387](https://atcoder.jp/contests/abc387)
+## [ABC 387](https://atcoder.jp/contests/abc387)
 
-https://atcoder.jp/contests/abc387/tasks/abc387_c
+[AtCoder abc387_c](https://atcoder.jp/contests/abc387/tasks/abc387_c)
 
 >    数位 dp
 
@@ -1952,7 +1954,7 @@ https://atcoder.jp/contests/abc387/tasks/abc387_c
     }
 ```
 
-# [ABC 388](https://atcoder.jp/contests/abc388)
+## [ABC 388](https://atcoder.jp/contests/abc388)
 
 
 
@@ -2054,7 +2056,7 @@ https://atcoder.jp/contests/abc387/tasks/abc387_c
 
 
 
-# [ABC391](https://atcoder.jp/contests/abc391)
+## [ABC391](https://atcoder.jp/contests/abc391)
 
 
 
@@ -2122,7 +2124,7 @@ https://atcoder.jp/contests/abc387/tasks/abc387_c
 
 
 
-# [ABC392](https://atcoder.jp/contests/abc392)
+## [ABC392](https://atcoder.jp/contests/abc392)
 
 [D - Doubles](https://atcoder.jp/contests/abc392/tasks/abc392_d)
 
@@ -2158,7 +2160,7 @@ https://atcoder.jp/contests/abc387/tasks/abc387_c
 
 
 
- # [ABC 393](https://atcoder.jp/contests/abc393)
+## [ABC 393](https://atcoder.jp/contests/abc393)
 
 [D - Swap to Gather](https://atcoder.jp/contests/abc393/tasks/abc393_d)
 
@@ -2187,7 +2189,7 @@ https://atcoder.jp/contests/abc387/tasks/abc387_c
 
 
 
-# [ABC 394](https://atcoder.jp/contests/abc394)
+## [ABC 394](https://atcoder.jp/contests/abc394)
 
 [E - Palindromic Shortest Path](https://atcoder.jp/contests/abc394/tasks/abc394_e)
 
@@ -2240,7 +2242,7 @@ https://atcoder.jp/contests/abc387/tasks/abc387_c
 
 
 
-# [ABC 395](https://atcoder.jp/contests/abc395)
+## [ABC 395](https://atcoder.jp/contests/abc395)
 
 [C - Shortest Duplicate Subarray](https://atcoder.jp/contests/abc395/tasks/abc395_c)
 
@@ -2356,4 +2358,3 @@ https://atcoder.jp/contests/abc387/tasks/abc387_c
         pw.println(Math.min(d[n][0], d[n][1]));
     }
 ```
-

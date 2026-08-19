@@ -4,7 +4,7 @@
 
 
 
-https://ac.nowcoder.com/acm/problem/226498
+[牛客 226498](https://ac.nowcoder.com/acm/problem/226498)
 
 距离不大，用数组装点和边
 
@@ -18,7 +18,7 @@ public class Main {
     static int n, m, d[], N = 5050, inf = (int)1e9;
     static boolean vis[];
     static Vector<int[]> adj[];
-    static Queue<int[]> que = new PriorityQueue<>((o1, o2) -> o1[1] > o2[1] ? 1 : -1);
+    static Queue<int[]> que = new PriorityQueue<>((o1, o2) -> Integer.compare(o1[1], o2[1]));
     public static void main(String[] args) throws IOException {
         n = sc.nextInt();        
         m = sc.nextInt();
@@ -55,7 +55,7 @@ public class Main {
 
 
 
-https://www.luogu.com.cn/problem/AT_abc362_d
+[洛谷 AT_abc362_d](https://www.luogu.com.cn/problem/AT_abc362_d)
 
 距离较大，需要用类表示边
 
@@ -70,7 +70,7 @@ public class Main {
     static long d[], INF = (long)1e18;
     static boolean vis[];
     static Vector<E> adj[];
-    static Queue<E> que = new PriorityQueue<>((e1, e2) -> e1.w > e2.w ? 1 : -1);
+    static Queue<E> que = new PriorityQueue<>((e1, e2) -> Long.compare(e1.w, e2.w));
     static class E{
         int v; long w;
         public E(int v, long w){this.v = v; this.w = w;}
@@ -113,4 +113,3 @@ public class Main {
     }
 }
 ```
-

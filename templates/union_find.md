@@ -1,3 +1,5 @@
+# 并查集模板
+
 ```java
     static int N = (int)1e5 + 10;
     static int p[] = new int[N], size[] = new int[N];
@@ -22,4 +24,3 @@
         }
     }
 ```
-

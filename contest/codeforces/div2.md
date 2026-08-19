@@ -1,4 +1,6 @@
-# [Educational Round 168 (Div. 2)](https://codeforces.com/contest/1997)
+# Codeforces Div. 2 比赛记录
+
+## [Educational Round 168 (Div. 2)](https://codeforces.com/contest/1997)
 
 [Problem - D - Codeforces](https://codeforces.com/contest/1997/problem/D)
 
@@ -76,7 +78,7 @@ public class Prac {
 }
 ```
 
-# [Round 963 (Div. 2)](https://codeforces.com/contest/1993)
+## [Round 963 (Div. 2)](https://codeforces.com/contest/1993)
 
 [Problem - B - Codeforces](https://codeforces.com/contest/1993/problem/B)
 
@@ -190,7 +192,7 @@ public class Main {
 
 
 
-# [Educational Round 169 (Div. 2)](https://codeforces.com/contest/2004)
+## [Educational Round 169 (Div. 2)](https://codeforces.com/contest/2004)
 
 [Problem - D - Codeforces](https://codeforces.com/contest/2004/problem/D)
 
@@ -206,10 +208,9 @@ Your task is to answer $q$ independent queries: calculate the minimum cost to mo
 >
 > 再去可能的中转站中寻找位置在$[1,x-1]、[y + 1,n]$中最近的中转站，这一步用**二分查找**实现。
 
-```java
-```
+> TODO：补充实现并用样例验证。
 
-# [Round 958 (Div. 2)](https://codeforces.com/contest/1988)
+## [Round 958 (Div. 2)](https://codeforces.com/contest/1988)
 
 [Problem - C - Codeforces](https://codeforces.com/contest/1988/problem/C)
 
@@ -257,7 +258,7 @@ public class Main {
 
 
 
-# [Round 975 (Div. 2)](https://codeforces.com/contest/2019) (exc: D E F)
+## [Round 975 (Div. 2)](https://codeforces.com/contest/2019) (exc: D E F)
 
 [Problem - C - Codeforces](https://codeforces.com/contest/2019/problem/C)
 

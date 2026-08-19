@@ -1,4 +1,4 @@
-# Pinely Round 4 (Div1 + 2) ](https://codeforces.com/contest/1991)
+# [Pinely Round 4 (Div. 1 + 2)](https://codeforces.com/contest/1991)
 
 [Problem - B - Codeforces](https://codeforces.com/contest/1991/problem/B)
 

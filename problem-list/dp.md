@@ -1,4 +1,6 @@
-# 一. 动态规划入门
+# 动态规划题单
+
+## 一. 动态规划入门
 
 > 一些简单的动态规划问题，感受一下「递推」
 
@@ -16,9 +18,9 @@
 
 [P1990 覆盖墙壁 - 洛谷](https://www.luogu.com.cn/problem/P1990)
 
-# 二. 背包
+## 二. 背包
 
-## 2.1 `01`背包
+### 2.1 `01`背包
 
 > 「选」或者「不选」
 
@@ -56,7 +58,7 @@
 
 
 
-## 2.2 完全背包
+### 2.2 完全背包
 
 [完全背包](https://ac.nowcoder.com/acm/problem/226516) 【模板】
 
@@ -64,7 +66,7 @@
 
 
 
-## 2.3 多重背包
+### 2.3 多重背包
 
 [P1833 樱花 - 洛谷](https://www.luogu.com.cn/problem/P1833) [二进制优化多重背包模板题] 
 
@@ -72,15 +74,15 @@
 
 
 
-# 三. 经典问题
+## 三. 经典问题
 
-## 经典问题
+### 经典问题
 
 **子序列问题**
 
-https://ac.nowcoder.com/acm/problem/226831「最长递增子序列 `LIS`」
+[牛客 226831](https://ac.nowcoder.com/acm/problem/226831)「最长递增子序列 `LIS`」
 
-https://www.luogu.com.cn/problem/P1115 「最大子序列和」
+[洛谷 P1115](https://www.luogu.com.cn/problem/P1115) 「最大子序列和」
 
 **最长公共子序列**
 
@@ -90,81 +92,81 @@ https://www.luogu.com.cn/problem/P1115 「最大子序列和」
 
 **编辑距离**
 
-https://www.luogu.com.cn/problem/P2758 「编辑距离」
+[洛谷 P2758](https://www.luogu.com.cn/problem/P2758) 「编辑距离」
 
 
 
-# 四. 线性`dp`
+## 四. 线性`dp`
 
-https://www.luogu.com.cn/problem/P2679
+[洛谷 P2679](https://www.luogu.com.cn/problem/P2679)
 
-https://www.luogu.com.cn/problem/P2340
+[洛谷 P2340](https://www.luogu.com.cn/problem/P2340)
 
-https://www.luogu.com.cn/problem/P1854
+[洛谷 P1854](https://www.luogu.com.cn/problem/P1854)
 
-https://www.luogu.com.cn/problem/P1044  dp | 记忆化搜索
+[洛谷 P1044](https://www.luogu.com.cn/problem/P1044)  dp | 记忆化搜索
 
-https://www.luogu.com.cn/problem/P1113 黄；不止一种方法。
+[洛谷 P1113](https://www.luogu.com.cn/problem/P1113) 黄；不止一种方法。
 
-https://www.luogu.com.cn/problem/P1002 橙
+[洛谷 P1002](https://www.luogu.com.cn/problem/P1002) 橙
 
-https://www.luogu.com.cn/problem/P2285 黄
+[洛谷 P2285](https://www.luogu.com.cn/problem/P2285) 黄
 
-https://www.luogu.com.cn/problem/P3842
+[洛谷 P3842](https://www.luogu.com.cn/problem/P3842)
 
-https://www.luogu.com.cn/problem/P2196
+[洛谷 P2196](https://www.luogu.com.cn/problem/P2196)
 
-https://www.luogu.com.cn/problem/P1359
+[洛谷 P1359](https://www.luogu.com.cn/problem/P1359)
 
-https://www.luogu.com.cn/problem/P1020
+[洛谷 P1020](https://www.luogu.com.cn/problem/P1020)
 
-https://www.luogu.com.cn/problem/P1091
+[洛谷 P1091](https://www.luogu.com.cn/problem/P1091)
 
-https://www.luogu.com.cn/problem/P1541
+[洛谷 P1541](https://www.luogu.com.cn/problem/P1541)
 
-https://www.luogu.com.cn/problem/P1868
+[洛谷 P1868](https://www.luogu.com.cn/problem/P1868)
 
-https://www.luogu.com.cn/problem/P1725
+[洛谷 P1725](https://www.luogu.com.cn/problem/P1725)
 
-https://www.luogu.com.cn/problem/P1435
+[洛谷 P1435](https://www.luogu.com.cn/problem/P1435)
 
-https://www.luogu.com.cn/problem/P4933
+[洛谷 P4933](https://www.luogu.com.cn/problem/P4933)
 
-https://www.luogu.com.cn/problem/P1874
+[洛谷 P1874](https://www.luogu.com.cn/problem/P1874)
 
-https://www.luogu.com.cn/problem/P1164
+[洛谷 P1164](https://www.luogu.com.cn/problem/P1164)
 
-https://www.luogu.com.cn/problem/P1077
+[洛谷 P1077](https://www.luogu.com.cn/problem/P1077)
 
 
 
-https://leetcode.cn/problems/egg-drop-with-2-eggs-and-n-floors
+[LeetCode egg-drop-with-2-eggs-and-n-floors](https://leetcode.cn/problems/egg-drop-with-2-eggs-and-n-floors)
 
-https://leetcode.cn/problems/count-number-of-texts	1857； 计数 线性dp
+[LeetCode count-number-of-texts](https://leetcode.cn/problems/count-number-of-texts)	1857； 计数 线性dp
 
-https://leetcode.cn/problems/minimum-white-tiles-after-covering-with-carpets 2106
+[LeetCode minimum-white-tiles-after-covering-with-carpets](https://leetcode.cn/problems/minimum-white-tiles-after-covering-with-carpets) 2106
 
-https://leetcode.cn/problems/palindrome-partitioning-ii	困难
+[LeetCode palindrome-partitioning-ii](https://leetcode.cn/problems/palindrome-partitioning-ii)	困难
 
-https://leetcode.cn/problems/unique-paths-ii/
+[LeetCode unique-paths-ii](https://leetcode.cn/problems/unique-paths-ii/)
 
-https://leetcode.cn/problems/solving-questions-with-brainpower	1709
+[LeetCode solving-questions-with-brainpower](https://leetcode.cn/problems/solving-questions-with-brainpower)	1709
 
-https://leetcode.cn/problems/coin-change-ii
+[LeetCode coin-change-ii](https://leetcode.cn/problems/coin-change-ii)
 
-https://leetcode.cn/problems/combination-sum-iv
+[LeetCode combination-sum-iv](https://leetcode.cn/problems/combination-sum-iv)
 
-https://leetcode.cn/problems/coin-change/
+[LeetCode coin-change](https://leetcode.cn/problems/coin-change/)
 
-https://leetcode.cn/problems/perfect-squares/
+[LeetCode perfect-squares](https://leetcode.cn/problems/perfect-squares/)
 
-https://leetcode.cn/problems/total-characters-in-string-after-transformations-i	1806
+[LeetCode total-characters-in-string-after-transformations-i](https://leetcode.cn/problems/total-characters-in-string-after-transformations-i)	1806
 
-https://leetcode.cn/problems/find-the-maximum-sum-of-node-values	2268；思考树上操作有什么性质？
+[LeetCode find-the-maximum-sum-of-node-values](https://leetcode.cn/problems/find-the-maximum-sum-of-node-values)	2268；思考树上操作有什么性质？
 
-https://leetcode.cn/problems/count-partitions-with-max-min-difference-at-most-k/ 单调队列优化 dp
+[LeetCode count-partitions-with-max-min-difference-at-most-k](https://leetcode.cn/problems/count-partitions-with-max-min-difference-at-most-k/) 单调队列优化 dp
 
-# 五. 区间dp
+## 五. 区间dp
 
 [P1775 石子合并（弱化版） - 洛谷](https://www.luogu.com.cn/problem/P1775) 黄
 
@@ -172,9 +174,11 @@ https://leetcode.cn/problems/count-partitions-with-max-min-difference-at-most-k/
 
 [D-智乃与长短期主义者博弈_牛客小白月赛110](https://ac.nowcoder.com/acm/contest/101918/D) 
 
-https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/	2130；区间dp + 枚举 + 记忆化搜索
+[LeetCode minimum-score-triangulation-of-polygon](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/)	2130；区间dp + 枚举 + 记忆化搜索
 
-# 六. 记忆化搜索
+[LeetCode stone-game-v](https://leetcode.cn/problems/stone-game-v/description) 2087；区间dp、枚举
+
+## 六. 记忆化搜索
 
 [P1434 SHOI2002\] 滑雪 - 洛谷](https://www.luogu.com.cn/problem/P1434) 黄
 
@@ -184,16 +188,16 @@ https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/	2130；区�
 
 [3040. 相同分数的最大操作数目 II](https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-ii/)
 
-https://leetcode.cn/problems/largest-color-value-in-a-directed-graph    有向图中判环；
+[LeetCode largest-color-value-in-a-directed-graph](https://leetcode.cn/problems/largest-color-value-in-a-directed-graph)    有向图中判环；
 
 
-# 七. 树型dp
+## 七. 树型dp
 
 [C-Cidoai的树上方案_牛客练习赛128 (nowcoder.com)](https://ac.nowcoder.com/acm/contest/88880/C)
 
 
 
-# 八. 期望/概率dp
+## 八. 期望/概率dp
 
 [F-口吃_牛客周赛 Round 60](https://ac.nowcoder.com/acm/contest/90070/F)
 
@@ -201,7 +205,7 @@ https://leetcode.cn/problems/largest-color-value-in-a-directed-graph    有向�
 
 
 
-# 九. 数位dp
+## 九. 数位dp
 
 [2843. 统计对称整数的数目 - 力扣（LeetCode）](https://leetcode.cn/problems/count-symmetric-integers) 1270；枚举 || 数位dp
 

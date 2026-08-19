@@ -1,3 +1,5 @@
+# 单调队列题单
+
 用deque实现
 
 ```java
@@ -11,4 +13,4 @@ for(int i = 0; i < n; i ++){
 
 
 
-https://www.luogu.com.cn/problem/P1886 【模板】
+[洛谷 P1886](https://www.luogu.com.cn/problem/P1886) 【模板】

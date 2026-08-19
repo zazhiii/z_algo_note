@@ -1,3 +1,5 @@
+# 贪心题单
+
 [179. 最大数 - 力扣（LeetCode） ](https://leetcode.cn/problems/largest-number)  按两个数的拼接大小排序，`(b + a).compareTo(a + b)`
 
 [1029. 两地调度 - 力扣（LeetCode）](https://leetcode.cn/problems/two-city-scheduling) 按差值排序
@@ -47,36 +49,36 @@
 
 
 
-# 区间贪心
+## 区间贪心
 
-## 区间选点
+### 区间选点
 
-https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons	[经典问题] 
+[452. 用最少数量的箭引爆气球](https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/)【经典问题】
 
-## 不相交区间
+### 不相交区间
 
- [646. 最长数对链](https://leetcode.cn/problems/maximum-length-of-pair-chain/	[经典问题] 
+[646. 最长数对链](https://leetcode.cn/problems/maximum-length-of-pair-chain/)【经典问题】
 
-https://leetcode.cn/problems/non-overlapping-intervals
+[435. 无重叠区间](https://leetcode.cn/problems/non-overlapping-intervals/)
 
-https://codeforces.com/contest/2033/problem/D
+[D. Kousuke's Assignment](https://codeforces.com/contest/2033/problem/D)
 
-## 区间分组
+### 区间分组
 
-https://leetcode.cn/problems/divide-intervals-into-minimum-number-of-groups	[经典问题]  
+[LeetCode divide-intervals-into-minimum-number-of-groups](https://leetcode.cn/problems/divide-intervals-into-minimum-number-of-groups)【经典问题】
 
-## 区间覆盖
+### 区间覆盖
 
-https://leetcode.cn/problems/jump-game-ii/
+[LeetCode jump-game-ii](https://leetcode.cn/problems/jump-game-ii/)
 
-https://leetcode.cn/problems/video-stitching/ 可转化为：45.跳跃游戏
+[LeetCode video-stitching](https://leetcode.cn/problems/video-stitching/) 可转化为：45.跳跃游戏
 
-https://leetcode.cn/problems/minimum-number-of-taps-to-open-to-water-a-garden可转化为：45.跳跃游戏
+[LeetCode minimum-number-of-taps-to-open-to-water-a-garden](https://leetcode.cn/problems/minimum-number-of-taps-to-open-to-water-a-garden)可转化为：45.跳跃游戏
 
 ---
 
-https://leetcode.cn/problems/break-a-palindrome/	1474
+[LeetCode break-a-palindrome](https://leetcode.cn/problems/break-a-palindrome/)	1474
 
-https://leetcode.cn/problems/maximum-number-of-eaten-apples  1930
+[LeetCode maximum-number-of-eaten-apples](https://leetcode.cn/problems/maximum-number-of-eaten-apples)  1930
 
-https://leetcode.cn/problems/zero-array-transformation-iii	2424；贪心、最大堆、差分；
+[LeetCode zero-array-transformation-iii](https://leetcode.cn/problems/zero-array-transformation-iii)	2424；贪心、最大堆、差分；

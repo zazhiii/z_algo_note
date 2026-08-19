@@ -1,8 +1,10 @@
-# 质数
+# 数学算法模板
+
+## 质数
 
 质数定义：在**大于1**的数中，只有1和本身这两个约数。
 
-## 1. 判断质数
+### 1. 判断质数
 
 **较小质数判断**
 
@@ -48,7 +50,7 @@ def is_prime(x: int) -> bool:
 
 
 
-## 2.分解质因数
+### 2.分解质因数
 
 将$n$分解为质因数相乘 $$ n = p_1^{\alpha_1}\times p_2^{\alpha_2}\times ...\times p_k^{\alpha_k} $$，$p_1,p_2,...,p_k$为质数
 
@@ -77,7 +79,7 @@ def is_prime(x: int) -> bool:
 
 
 
-## 3. 质数筛
+### 3. 质数筛
 
 > $0\sim10^6$中的质数有：$78498$个
 >
@@ -108,7 +110,7 @@ def is_prime(x: int) -> bool:
 
 > 埃氏筛已经够用了。
 
-# 最大公约数 GCD & 最小公倍数LCM
+## 最大公约数 GCD & 最小公倍数LCM
 
 ```java
 	// GCD
@@ -122,7 +124,7 @@ def is_prime(x: int) -> bool:
     }
 ```
 
-# 快速幂
+## 快速幂
 
 > $\log n$
 
@@ -140,20 +142,20 @@ def is_prime(x: int) -> bool:
 
 
 
-# 二进制位中1的个数
+## 二进制位中1的个数
 
 > 遍历每一位的方法比较基础，不再赘述
 
 
 
-1. 巧用 `lowBit: n & (n - 1)`，每次去除最低位1
+1. 使用 `n & (n - 1)` 清除最低位的 `1`。注意，真正的 `lowbit` 是 `n & -n`。
 
 ```java
     public int bitCount(long x){
         int cnt = 0;
         while(x > 0){
             cnt ++;
-            x -= x & (x - 1); 
+            x &= x - 1;
         }
         return cnt;
     }
@@ -168,4 +170,3 @@ def is_prime(x: int) -> bool:
         return Long.bitCount(x);
     }
 ```
-

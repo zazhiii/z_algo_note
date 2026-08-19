@@ -1,4 +1,6 @@
-# 模板
+# 组合数学模板
+
+## 模板
 
 $C_a^b$当$a$和$b$较小时（$0\le b\le a\le2000$），用`c[a][b]`存储$C_a^b$的值，利用递推式$C^m_n=C^m_{n−1}+C^{m−1}_{n−1}$计算出所有组合数的值。
 
@@ -59,7 +61,7 @@ public static long C(int a, int b){
 
 
 
-# 题目
+## 题目
 
 [Problem - 1999F - Codeforces](https://codeforces.com/problemset/problem/1999/F)
 

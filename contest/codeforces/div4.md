@@ -1,4 +1,6 @@
-# [Round 886 (Div. 4)](https://codeforces.com/contest/1850) (exc: H)
+# Codeforces Div. 4 比赛记录
+
+## [Round 886 (Div. 4)](https://codeforces.com/contest/1850) (exc: H)
 
 [E. Cardboard for Pictures](https://codeforces.com/contest/1850/problem/E) 二分答案
 
@@ -58,7 +60,7 @@
 
 
 
-# [Round 898 (Div. 4)](https://codeforces.com/contest/1873) (exc: H)
+## [Round 898 (Div. 4)](https://codeforces.com/contest/1873) (exc: H)
 
 [E. Building an Aquarium](https://codeforces.com/contest/1873/problem/E)  
 
@@ -76,7 +78,7 @@
 >
 > B能消掉所有与之相邻的A，若字符串以B结尾或开头，或者有BB子串那么所有A都能被消掉，否则会剩一段连续A子串消不掉，剩最短的A子串即可。
 
-# [Round 937 (Div. 4)](https://codeforces.com/contest/1950)（exc：F G）
+## [Round 937 (Div. 4)](https://codeforces.com/contest/1950)（exc：F G）
 
 [Problem - D - Codeforces](https://codeforces.com/contest/1950/problem/D)
 
@@ -186,7 +188,7 @@
 
 
 
-# Round 944 (Div. 4)（exc：G）
+## Round 944 (Div. 4)（exc：G）
 
 [Problem - D - Codeforces](https://codeforces.com/contest/1971/problem/D)
 
@@ -304,7 +306,7 @@ class Read{
 
 
 
-# [Round 964 (Div. 4)](https://codeforces.com/contest/1999) （exc：G1 G2）
+## [Round 964 (Div. 4)](https://codeforces.com/contest/1999) （exc：G1 G2）
 
 [Problem - 1999E - Codeforces](https://codeforces.com/problemset/problem/1999/E)
 

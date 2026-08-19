@@ -1,8 +1,10 @@
-# 背包
+# 动态规划模板
+
+## 背包
 
 
 
-## 01背包
+### 01背包
 
 [【模板】01背包 (nowcoder.com)](https://ac.nowcoder.com/acm/problem/226514)
 
@@ -14,7 +16,7 @@
 
   （2）若背包**恰好装满**，求至多能装多大价值的物品？
 
-### 二维dp数组 
+#### 二维dp数组
 
 ```java
 import java.io.*;
@@ -50,7 +52,10 @@ public class Main {
                 }else{
                     // 考虑: 选 | 不选
                     dp1[i][j] = Math.max(dp1[i - 1][j], dp1[i - 1][j - v[i]] + w[i]);
-                    dp2[i][j] = Math.max(dp2[i - 1][j], dp2[i - 1][j - v[i]] + w[i]);
+                    dp2[i][j] = dp2[i - 1][j];
+                    if(dp2[i - 1][j - v[i]] != Integer.MIN_VALUE){
+                        dp2[i][j] = Math.max(dp2[i][j], dp2[i - 1][j - v[i]] + w[i]);
+                    }
                 }
             }
         }
@@ -61,7 +66,7 @@ public class Main {
 }
 ```
 
-### 一维dp数组
+#### 一维dp数组
 
 > 滚动数组将`dp`数组优化为一维
 
@@ -94,7 +99,9 @@ public class Main {
             // 他表示的就是容量j - v[i]在[1, i - 1]中能装的最大价值量。
             for(int j = V; j >= v[i]; j --){
                 dp1[j] = Math.max(dp1[j], dp1[j - v[i]] + w[i]);
-                dp2[j] = Math.max(dp2[j], dp2[j - v[i]] + w[i]);
+                if(dp2[j - v[i]] != Integer.MIN_VALUE){
+                    dp2[j] = Math.max(dp2[j], dp2[j - v[i]] + w[i]);
+                }
             }
         }
         pw.println(dp1[V]);
@@ -104,11 +111,11 @@ public class Main {
 }
 ```
 
-## 完全背包
+### 完全背包
 
 [【模板】完全背包 (nowcoder.com)](https://ac.nowcoder.com/acm/problem/226516)
 
-### 二维dp数组
+#### 二维dp数组
 
 ```java
 import java.io.*;
@@ -148,7 +155,10 @@ public class Main {
                     // 理解为 "选一个" 当前物品。
                     // 考虑: 不选 | 选一个
                     dp1[i][j] = Math.max(dp1[i - 1][j], dp1[i][j - v[i]] + w[i]);
-                    dp2[i][j] = Math.max(dp2[i - 1][j], dp2[i][j - v[i]] + w[i]);
+                    dp2[i][j] = dp2[i - 1][j];
+                    if(dp2[i][j - v[i]] != Integer.MIN_VALUE){
+                        dp2[i][j] = Math.max(dp2[i][j], dp2[i][j - v[i]] + w[i]);
+                    }
                 }
             }
         }
@@ -159,7 +169,7 @@ public class Main {
 }
 ```
 
-### 一维dp数组
+#### 一维dp数组
 
 ```java
 import java.io.*;
@@ -189,7 +199,9 @@ public class Main {
             // 所以dp[j - v[i]]可以是更新过的。
             for(int j = v[i]; j <= V; j ++){
                 dp1[j] = Math.max(dp1[j], dp1[j - v[i]] + w[i]);
-                dp2[j] = Math.max(dp2[j], dp2[j - v[i]] + w[i]);
+                if(dp2[j - v[i]] != Integer.MIN_VALUE){
+                    dp2[j] = Math.max(dp2[j], dp2[j - v[i]] + w[i]);
+                }
             }
         }
         pw.println(dp1[V]);
@@ -199,13 +211,13 @@ public class Main {
 }
 ```
 
-## 多重背包
+### 多重背包
 
 [多重背包 (nowcoder.com)](https://ac.nowcoder.com/acm/problem/235950)
 
 有 $n$ 种物品，第 $i$ 种物品有 $x_i$ 个，每一个物品重量为 $w_i$ ，价值为 $v_i$ ，现有一个承重能力为 $T$ 的背包，在不超过承重能力的情况下，背包种最多能装多少价值的物品。
 
-### 二维dp数组
+#### 二维dp数组
 
 ```java
 import java.io.*;
@@ -241,7 +253,7 @@ public class Main {
 }
 ```
 
-### 一维dp数组
+#### 一维dp数组
 
 ```java
 import java.io.*;
@@ -258,9 +270,9 @@ public class Main {
         s = new int[n + 1];
         dp = new int[V + 1];
         for(int i = 1; i <= n; i ++){
-            s[i] = sc.nextInt();
             v[i] = sc.nextInt();
             w[i] = sc.nextInt();
+            s[i] = sc.nextInt();
         }
         for(int i = 1; i <= n; i ++){
             // 类似 01 背包，选了当前物品就只能从[1, i - 1]中考虑剩余容量能装最多多少价值了。
@@ -277,7 +289,7 @@ public class Main {
 }
 ```
 
-### 二进制优化
+#### 二进制优化
 
 [5. 多重背包问题 II - AcWing题库](https://www.acwing.com/problem/content/5/)
 
@@ -318,7 +330,7 @@ public class Main {
 }
 ```
 
-## 分组背包
+### 分组背包
 
 ```java
 import java.io.*;
@@ -358,9 +370,9 @@ public class Main {
 }
 ```
 
-# 经典线性dp
+## 经典线性dp
 
-## 最大子串和
+### 最大子串和
 
 [P1115 最大子段和 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1115)
 
@@ -392,7 +404,6 @@ public class Main {
 
 
 
-## 最长公共子序列`(LCS)`
+### 最长公共子序列`(LCS)`
 
-## 最长递增子序列`(LIS)`
-
+### 最长递增子序列`(LIS)`

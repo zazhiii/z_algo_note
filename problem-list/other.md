@@ -1,4 +1,6 @@
-# 找规律
+# 其他技巧题单
+
+## 找规律
 
 [C-智乃的数字_牛客小白月赛110](https://ac.nowcoder.com/acm/contest/101918/C)
 
@@ -10,7 +12,7 @@
 
 
 
-# 枚举右，维护左
+## 枚举右，维护左
 
 [数学考试 (nowcoder.com)](https://ac.nowcoder.com/acm/problem/15553)
 

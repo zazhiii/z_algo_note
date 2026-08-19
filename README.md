@@ -1,46 +1,42 @@
-# My Solutions
-## 练习或比赛平台
-1. [洛谷](https://www.luogu.com.cn)
-2. [leetcode](https://leetcode.cn)
-3. [牛客](https://ac.nowcoder.com/)
-3. [AtCoder](https://atcoder.jp/)
-4. [codeforces](https://codeforces.com/)
-## 知识点
-### Java
-### 基础算法
-1. 二分查找
-2. 前缀和与差分
-3. 双指针
-### 数学
-1. 质数
-    - 判断质数
-    - 质数分解
-    - 质数筛
-2. 约数
-3. 快速幂
-4. 组合数
+# 算法题解与模板
 
-### 数据结构
-1. 并查集
-2. 单调队列（滑动窗口）
-3. 字典树（前缀树、trie）
-### 贪心
-### 搜索与图论
-1. 最短路
-   - BFS
-   - dijkstra朴素版
-   - dijkstra优先队列优化
-2. DFS
-### 动态规划
-1. 线性dp
-2. 背包
-    - 01背包
-    - 完全背包
-    - 多重背包
-3. 区间dp
-4. 计数dp
-5. 记忆化搜索
-6. 树型dp
-7. 概率/期望dp
-8. 数位dp
+这个仓库用于沉淀比赛复盘、知识点题单、可复用算法模板和语言速查笔记。内容以 Java 为主，Python 笔记仍在补充中。
+
+## 仓库导航
+
+- [contest](contest/README.md)：按平台保存比赛复盘、解题思路和当场代码。
+- [problem-list](problem-list/README.md)：按知识点组织题目链接、难度和标签。
+- [templates](templates/README.md)：保存经过复核、可复制使用的算法模板。
+- [Java](Java/README.md)：Java 标准库与语言特性速查。
+- [Python](Python/README.md)：Python 语言特性速查。
+- [Main.java](Main.java)：Java 竞赛输入输出骨架。
+
+## 内容职责
+
+1. `contest` 保留比赛语境和完整复盘，不作为算法模板的唯一来源。
+2. `problem-list` 负责分类和学习路线，同一道题可以出现在多个知识点下，但应标明侧重点。
+3. `templates` 是权威实现来源；模板修改应配合最小样例或边界用例验证。
+4. `Java`、`Python` 只记录语言和标准库知识，算法实现优先放入 `templates`。
+
+## 文档约定
+
+- 每份 Markdown 只使用一个一级标题；章节、子章节、题目依次使用二至四级标题。
+- 题目链接使用 `[题号 标题](URL)`，链接后可追加难度、标签和备注。
+- `TODO`、`待补`、`exc` 表示内容尚未完成，不代表模板已经验证。
+- 文件名暂时保留现状；新增英文文件优先使用小写 `snake_case`。
+
+## 练习平台
+
+1. [洛谷](https://www.luogu.com.cn/)
+2. [LeetCode](https://leetcode.cn/)
+3. [牛客](https://ac.nowcoder.com/)
+4. [AtCoder](https://atcoder.jp/)
+5. [Codeforces](https://codeforces.com/)
+
+## 推荐阅读顺序
+
+1. 从 [基础算法题单](problem-list/foundation/) 开始。
+2. 进入 [数据结构题单](problem-list/data-structure/) 和 [动态规划题单](problem-list/dp.md)。
+3. 解题后对照 [算法模板](templates/README.md) 整理可复用实现。
+4. 在 [比赛记录](contest/README.md) 中复盘失误、补题和新知识点。
 
