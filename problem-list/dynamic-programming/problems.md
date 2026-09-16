@@ -166,6 +166,11 @@
 
 [LeetCode count-partitions-with-max-min-difference-at-most-k](https://leetcode.cn/problems/count-partitions-with-max-min-difference-at-most-k/) 单调队列优化 dp
 
+
+使得数组非严格递增最小操作数
+https://codeforces.com/contest/713/problem/C O(n^2)数据
+https://www.luogu.com.cn/problem/P4597 O(nlog n)数据
+
 ## 五. 区间dp
 
 [P1775 石子合并（弱化版） - 洛谷](https://www.luogu.com.cn/problem/P1775) 黄
