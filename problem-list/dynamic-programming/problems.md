@@ -60,19 +60,18 @@
 
 ### 2.2 完全背包
 
-[完全背包](https://ac.nowcoder.com/acm/problem/226516) 【模板】
+https://ac.nowcoder.com/acm/problem/226516 template
 
-[P1616 疯狂的采药 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P1616)
+https://www.luogu.com.cn/problem/P1616
 
+https://leetcode.cn/problems/perfect-squares/description/ 1486
 
-
+https://leetcode.cn/problems/minimum-days-to-score-exactly-n-points 1683 
 ### 2.3 多重背包
 
-[P1833 樱花 - 洛谷](https://www.luogu.com.cn/problem/P1833) [二进制优化多重背包模板题] 
+https://www.luogu.com.cn/problem/P1833 二进制优化多重背包模板题]
 
-[P5020 [NOIP 2018 提高组] 货币系统 - 洛谷](https://www.luogu.com.cn/problem/P5020)  绿
-
-
+https://www.luogu.com.cn/problem/P5020 绿
 
 ## 三. 经典问题
 
@@ -170,6 +169,8 @@
 使得数组非严格递增最小操作数
 https://codeforces.com/contest/713/problem/C O(n^2)数据
 https://www.luogu.com.cn/problem/P4597 O(nlog n)数据
+
+https://leetcode.cn/problems/find-x-value-of-array-i 
 
 ## 五. 区间dp
 

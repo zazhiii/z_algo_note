@@ -1,48 +1,63 @@
 {
   "main": {
-    "id": "dfb822f273e3903e",
+    "id": "0de2c291a34aac58",
     "type": "split",
     "children": [
       {
-        "id": "3178f1b39a9b1c72",
+        "id": "8d93edfe49a35cf3",
         "type": "tabs",
         "children": [
           {
-            "id": "8903ef8224d89302",
+            "id": "a0700832a58cfce6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "problem-list/dp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "dp"
+            }
+          },
+          {
+            "id": "5e7a340e9fda5464",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "problem-list/dynamic-programming/problems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "problems"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "faf82f834c5e7f63",
+    "id": "ae3401bbe081e4dd",
     "type": "split",
     "children": [
       {
-        "id": "2941bfa2570d75cc",
+        "id": "c2fbaaec081d9329",
         "type": "tabs",
         "children": [
           {
-            "id": "8e98f5a846f7bfca",
+            "id": "51796c9ed63a0dae",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
@@ -50,7 +65,7 @@
             }
           },
           {
-            "id": "307b8fe0aab419e1",
+            "id": "2e4cd4ad8a88e7fd",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,7 +82,7 @@
             }
           },
           {
-            "id": "8bb9865a58ecdc9b",
+            "id": "51ac9132041d50ed",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -80,24 +95,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 304.8333435058594
   },
   "right": {
-    "id": "dbe9ac1eab050e4c",
+    "id": "9dffef02d3f64651",
     "type": "split",
     "children": [
       {
-        "id": "ff849baa6dd9bf67",
+        "id": "1ccfacede218dbc0",
         "type": "tabs",
         "children": [
           {
-            "id": "b10a9e1b91143975",
+            "id": "54611c4c7c9b1c5d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "contest/leetcode/hot100.md",
-                "collapseAll": true,
+                "file": "problem-list/dp.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -106,24 +121,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "hot100 的反向链接列表"
+              "title": "dp 的反向链接列表"
             }
           },
           {
-            "id": "62164959ca46f731",
+            "id": "cdd140df1889d207",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "problem-list/dp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "dp 的出链列表"
             }
           },
           {
-            "id": "e1feff77381f2689",
+            "id": "3ec9c78ecbb362bc",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -138,12 +154,12 @@
             }
           },
           {
-            "id": "6ae008cde19832b1",
+            "id": "fa16e8284a98db9b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "problem-list/dynamic-programming/problems.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -153,7 +169,7 @@
             }
           },
           {
-            "id": "ee78c9e77c16d075",
+            "id": "4528b12b2cb41249",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -167,47 +183,47 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 337.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "8903ef8224d89302",
+  "active": "51796c9ed63a0dae",
   "lastOpenFiles": [
-    "to-organize/README.md",
-    "to-organize/leetcode_hot_100.md",
-    "scripts/README.md",
-    "templates/math/geometry.md",
-    "templates/math/README.md",
-    "problem-list/math/README.md",
-    "templates/math/math.md",
-    "problem-list/math/problems.md",
-    "problem-list/dynamic-programming/problems.md",
     "templates/math/combinatorics.md",
-    "templates/geometry.md",
-    "templates/string/string_hash.md",
-    "templates/string/README.md",
-    "templates/algorithm_document.md",
-    "templates/contest_review.md",
-    "templates/problem_solution.md",
-    "README.md",
-    "REORGANIZATION.md",
-    "contest/leetcode/hot100.md",
+    "templates/math/math.md",
     "problem-list/foundation/binary_search.md",
-    "problem-list/dp.md",
+    "templates/algorithm_document.md",
+    "templates/foundation/two_pointers.md",
+    "problem-list/string/problems.md",
+    "problem-list/graph/bfs.md",
+    "problem-list/foundation/two_pointers.md",
+    "problem-list/foundation/bitwise_operations.md",
     "templates/math.md",
-    "problem-list/math.md",
-    "problem-list/data-structure/union_find.md",
     "templates/union_find.md",
-    "problem-list/graphs.md"
+    "templates/dp.md",
+    "problem-list/DFS.md",
+    "problem-list/graphs.md",
+    "problem-list/greedy.md",
+    "problem-list/LCA.md",
+    "problem-list/BFS.md",
+    "problem-list/练习.md",
+    "problem-list/shortest_path.md",
+    "problem-list/string.md",
+    "templates/combinatorics.md",
+    "templates/trie.md",
+    "templates/StringHash.md",
+    "templates/shortest_path.md",
+    "templates/permutation.md",
+    "templates/sort.md"
   ]
 }

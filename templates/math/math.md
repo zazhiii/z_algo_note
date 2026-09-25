@@ -146,8 +146,6 @@ def is_prime(x: int) -> bool:
 
 > 遍历每一位的方法比较基础，不再赘述
 
-
-
 1. 使用 `n & (n - 1)` 清除最低位的 `1`。注意，真正的 `lowbit` 是 `n & -n`。
 
 ```java
@@ -161,8 +159,6 @@ def is_prime(x: int) -> bool:
     }
 ```
 
-
-
 2. Java自带函数
 
 ```java
@@ -170,3 +166,29 @@ def is_prime(x: int) -> bool:
         return Long.bitCount(x);
     }
 ```
+
+## 预处理$1-10^9$之间的回文数 
+```java
+	List<Integer> pali = new ArrayList<>();
+	for (int base = 1; base <= 10000; base *= 10) {
+		// 奇数位数的回文数
+		for (int i = base; i < base * 10; i++) {
+			int x = i;
+			for (int j = i / 10; j > 0; j /= 10) {
+				x = x * 10 + j % 10;
+			}
+			pali.add(x);
+		}
+		if (base >= 1000) continue;
+		// 偶数位数的回文数
+		for (int i = base; i < base * 10; i++) {
+			int x = i;
+			for (int j = i; j > 0; j /= 10) {
+				x = x * 10 + j % 10;
+			}
+			pali.add(x);
+		}
+	}
+```
+
+[4053. 使每个元素变为回文数的最少操作次数 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-operations-to-make-every-element-palindromic/description/)
