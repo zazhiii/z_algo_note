@@ -81,8 +81,6 @@ https://www.luogu.com.cn/problem/P5020 绿
 
 [牛客 226831](https://ac.nowcoder.com/acm/problem/226831)「最长递增子序列 `LIS`」
 
-[洛谷 P1115](https://www.luogu.com.cn/problem/P1115) 「最大子序列和」
-
 **最长公共子序列**
 
 >    若$A_i=B_i$，$dp[i][j] = dp[i-1][j-1]+1$。
@@ -92,6 +90,13 @@ https://www.luogu.com.cn/problem/P5020 绿
 **编辑距离**
 
 [洛谷 P2758](https://www.luogu.com.cn/problem/P2758) 「编辑距离」
+
+**最大子数组和**
+
+https://leetcode.cn/problems/maximum-subarray/description/ template
+https://www.luogu.com.cn/problem/P1115 template
+
+https://leetcode.cn/problems/maximum-pulse-value-after-one-subarray-rotation/description/
 
 
 
