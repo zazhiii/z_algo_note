@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5eea78c68f8a8a99",
+        "id": "0d689723d4313662",
         "type": "tabs",
         "children": [
           {
-            "id": "a36c93909006487a",
+            "id": "2f8aa11135906300",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -181,7 +177,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a36c93909006487a",
+  "active": "4528b12b2cb41249",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "problem-list/dynamic-programming/problems.md",
