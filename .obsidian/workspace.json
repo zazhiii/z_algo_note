@@ -11,10 +11,14 @@
             "id": "2f8aa11135906300",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "problem-list/data-structure/stack.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "stack"
             }
           }
         ]
@@ -177,8 +181,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4528b12b2cb41249",
+  "active": "2f8aa11135906300",
   "lastOpenFiles": [
+    "problem-list/data-structure/stack.md",
     "conflict-files-obsidian-git.md",
     "problem-list/dynamic-programming/problems.md",
     "to-organize/TODO.md",
@@ -203,7 +208,6 @@
     "problem-list/shortest_path.md",
     "problem-list/string.md",
     "templates/combinatorics.md",
-    "templates/trie.md",
-    "templates/StringHash.md"
+    "templates/trie.md"
   ]
 }
