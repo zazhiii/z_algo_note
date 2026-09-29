@@ -115,3 +115,7 @@
 ## 双指针
 
 [922. 按奇偶排序数组 II - 力扣（LeetCode）](https://leetcode.cn/problems/sort-array-by-parity-ii/) 用两个奇偶指针操作
+
+## 前后缀分解
+
+[1477. 找两个和为目标值且不重叠的子数组 - 力扣（LeetCode）](https://leetcode.cn/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/description/)
