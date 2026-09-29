@@ -176,6 +176,7 @@ https://leetcode.cn/problems/maximum-pulse-value-after-one-subarray-rotation/des
 https://codeforces.com/contest/713/problem/C O(n^2)数据
 https://www.luogu.com.cn/problem/P4597 O(nlog n)数据
 
+https://leetcode.cn/problems/check-if-there-is-a-valid-parentheses-string-path
 ## 五. 区间dp
 
 [P1775 石子合并（弱化版） - 洛谷](https://www.luogu.com.cn/problem/P1775) 黄

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e01a1b32334f811e",
+        "id": "8adf43da1352c23e",
         "type": "tabs",
         "children": [
           {
-            "id": "a495dd620b0a9661",
+            "id": "e52fca2b8ccf76d3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "problem-list/dynamic-programming/problems.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "problems"
             }
           }
         ]
@@ -139,6 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "problem-list/dynamic-programming/problems.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -176,7 +181,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a495dd620b0a9661",
+  "active": "e52fca2b8ccf76d3",
   "lastOpenFiles": [
     "problem-list/dynamic-programming/problems.md",
     "to-organize/TODO.md",
