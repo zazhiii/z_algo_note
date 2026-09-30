@@ -60,13 +60,13 @@
 
 ### 2.2 完全背包
 
-https://ac.nowcoder.com/acm/problem/226516 template
+[NowCoder 226516](https://ac.nowcoder.com/acm/problem/226516) template
 
-https://www.luogu.com.cn/problem/P1616
+[洛谷 P1616](https://www.luogu.com.cn/problem/P1616)
 
-https://leetcode.cn/problems/perfect-squares/description/ 1486
+[LeetCode perfect-squares](https://leetcode.cn/problems/perfect-squares/description/) 1486
 
-https://leetcode.cn/problems/minimum-days-to-score-exactly-n-points 1683 
+[LeetCode minimum-days-to-score-exactly-n-points](https://leetcode.cn/problems/minimum-days-to-score-exactly-n-points) 1683 
 ### 2.3 多重背包
 
 https://www.luogu.com.cn/problem/P1833 二进制优化多重背包模板题]
@@ -245,7 +245,6 @@ https://atcoder.jp/contests/abc147/tasks/abc147_e	clist 1611
 
 
 [C - Snake Numbers](https://atcoder.jp/contests/abc387/tasks/abc387_c) 1249
-
 
 
 
