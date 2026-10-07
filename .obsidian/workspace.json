@@ -11,14 +11,14 @@
             "id": "2f8aa11135906300",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "problem-list/math/problems.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "problems"
             }
           }
         ]
@@ -115,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "problem-list/dp.md",
+                "file": "problem-list/math/problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "dp 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -144,6 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "problem-list/math/problems.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -167,7 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 544.5
+    "width": 443.833251953125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,15 +182,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2f8aa11135906300",
+  "active": "4528b12b2cb41249",
   "lastOpenFiles": [
+    "templates/math/math.md",
+    "problem-list/math/problems.md",
+    "problem-list/data-structure/union_find.md",
+    "problem-list/data-structure/trie.md",
+    "problem-list/data-structure/set.md",
     "problem-list/data-structure/stack.md",
     "conflict-files-obsidian-git.md",
     "to-organize/todo.md",
     "problem-list/dynamic-programming/problems.md",
     "to-organize/TODO.md",
     "templates/math/combinatorics.md",
-    "templates/math/math.md",
     "problem-list/foundation/binary_search.md",
     "templates/algorithm_document.md",
     "templates/foundation/two_pointers.md",
@@ -204,10 +209,6 @@
     "problem-list/graphs.md",
     "problem-list/greedy.md",
     "problem-list/LCA.md",
-    "problem-list/BFS.md",
-    "problem-list/练习.md",
-    "problem-list/shortest_path.md",
-    "problem-list/string.md",
-    "templates/combinatorics.md"
+    "problem-list/BFS.md"
   ]
 }

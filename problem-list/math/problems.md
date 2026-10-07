@@ -40,22 +40,19 @@
 
 [洛谷 P10411](https://www.luogu.com.cn/problem/P10411)
 
-
-
-
-
 ## 快速幂
 
-[1922. 统计好数字的数目 - 力扣（LeetCode）](https://leetcode.cn/problems/count-good-numbers/description/) 快速幂 + 乘法原理
+https://leetcode.cn/problems/count-good-numbers 1651 快速幂 + 乘法原理
 
-
+https://leetcode.cn/problems/sum-of-decoded-numbers 1416
 
 ## 概率
 
-[1227. 飞机座位分配概率 - 力扣（LeetCode）](https://leetcode.cn/problems/airplane-seat-assignment-probability/description/)
+https://leetcode.cn/problems/airplane-seat-assignment-probability 1377
 
 ## GCD | LCM
-[LeetCode replace-non-coprime-numbers-in-array](https://leetcode.cn/problems/replace-non-coprime-numbers-in-array)
+
+https://leetcode.cn/problems/replace-non-coprime-numbers-in-array 2081
 
 
 
