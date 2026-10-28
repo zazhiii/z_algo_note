@@ -177,7 +177,13 @@ https://www.luogu.com.cn/problem/P4597 O(nlog n)数据
 
 https://leetcode.cn/problems/find-x-value-of-array-i 1981
 
+
 https://leetcode.cn/problems/check-if-there-is-a-valid-parentheses-string-path 2095
+
+
+值域也作为一个维度
+https://leetcode.cn/problems/minimum-xor-path-in-a-grid 1725
+https://atcoder.jp/contests/abc147/tasks/abc147_e
 
 ## 五. 区间dp
 
