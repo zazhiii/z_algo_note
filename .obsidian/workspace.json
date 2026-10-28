@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "466b8186a6672118",
+        "id": "e9322900ecc37e0a",
         "type": "tabs",
         "children": [
           {
-            "id": "ee827145503ff719",
+            "id": "34a485a3e125b90d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -162,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 395.26953125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,8 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee78c9e77c16d075",
+  "active": "34a485a3e125b90d",
   "lastOpenFiles": [
+    "problem-list/to-organize/mixed_practice.md",
+    "to-organize/todo.md",
     "problem-list/dynamic-programming/problems.md",
     "conflict-files-obsidian-git.md",
     "to-organize/TODO.md",
@@ -201,8 +207,6 @@
     "templates/algorithm_document.md",
     "templates/contest_review.md",
     "templates/problem_solution.md",
-    "REORGANIZATION.md",
-    "contest/leetcode/hot100.md",
-    "problem-list/foundation/binary_search.md"
+    "REORGANIZATION.md"
   ]
 }
